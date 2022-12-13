@@ -1,7 +1,6 @@
 
 package champollion;
 
-
 public abstract class Personne {
     private final String nom;
     private final String email;
@@ -18,6 +17,4 @@ public abstract class Personne {
     public String getEmail() {
         return email;
     }
-    
-    
 }
